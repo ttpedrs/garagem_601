@@ -118,10 +118,6 @@ ul {
 
 }
 
-.texto-superior {
-
-
-}
 
 .texto-informativo {
 
@@ -211,8 +207,10 @@ color: rgb(160, 160, 160);
 }
 
 .tabela-orcamento{
-  margin: 1rem 0rem 0rem 9rem;
-
+  display: flex;
+  margin: 1rem 0rem 0rem 5rem;
+  margin-top: 10px;
+  padding: 0px;
 
 }
 
@@ -230,9 +228,7 @@ color: rgb(160, 160, 160);
 
 }
 
-.checkbox-wpp{
 
-}
 
 .botao-adicionar-lin{
   height: 50px;
@@ -240,6 +236,7 @@ color: rgb(160, 160, 160);
   border: none;
   border-radius: 7px;
   color: white;
+  margin-left: 4.5em;
 }
 
 .logo-ctt-wpp{
@@ -258,3 +255,155 @@ color: rgb(160, 160, 160);
   height: 30px;
 
   }
+.tabela-itens{
+margin-left: 10px;
+border-style: solid;
+border-width: thin; 
+border-radius: 4px;
+padding: 0px;
+margin-top: 0px;
+height: 10px;
+
+}
+
+table.tabela-itens th{
+  background-color: #6C757D;
+  height: 20px;
+  
+}
+table.tabela-itens td{
+  height: 20px;
+  padding: 0%;
+  margin: 0%;
+}
+
+
+.historico-orcamentos{
+  
+  height:100%;
+  width: 230px;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 4px;
+  border-color: #cecece;
+  padding: 10px;
+  margin: 0rem 0rem 0rem 19rem;
+  text-align: start;
+  align-content: flex-end;
+}
+.quadro-historico{
+  border-style: solid;
+  border-width: thin;
+  border-color: #e4e4e4;
+  border-radius: 4px;
+}
+
+
+.cadastro-cliente{
+  margin: 1rem 0rem 0rem 9rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.cadastro-veiculo{
+  margin: 1rem 0rem 0rem 9rem;
+
+}
+
+.linha{
+  display: flex;
+  flex-direction:row;
+  margin: 4px;
+
+}
+
+.cadastro-cliente{
+  border-style: solid;
+  border-radius: 10px;
+  border-width: thin;
+  border-color: #e4e4e4;
+  
+}
+
+.cadastro-veiculo{
+  border-style: solid;
+  border-radius: 10px;
+  border-width: thin;
+  border-color: #e4e4e4;
+  margin-top: 3%;
+}
+
+.caixa-descricao{
+  border-style: solid;
+  border-width: thin;
+  border-radius: 4px 0px 0px 4px;
+  border-color: #e4e4e4;
+  color: rgb(126, 125, 125);
+  background-color: rgb(238, 238, 238);
+  margin-left: 10px;
+}
+
+.cadastro-cliente h5{
+  margin-left: 10px;
+  margin-top: -10px;
+  background-color: white;
+  width: 140px;
+  text-align: center;
+  
+}
+
+.cadastro-veiculo h5{
+  margin-left: 10px;
+  margin-top: -10px;
+  background-color: white;
+  width: 140px;
+  text-align: center;
+
+
+}
+
+.text-box-cadastro{
+  border-style: solid;
+  border-width: thin;
+  border-color:#e4e4e4; 
+}
+
+.botao-salvar-cad{
+  height: 50px;
+  background-color: rgb(209, 0, 0);
+  border: none;
+  border-radius: 7px;
+  color: white;
+  margin-left: 4.5em;
+  margin: 1rem 0rem 0rem 9rem;
+  width: 100px;
+}
+
+.botao-desativar-cad{
+  height: 50px;
+  background-color: rgb(207, 207, 207);
+  border: none;
+  border-radius: 7px;
+  color: white;
+
+ 
+  width: 100px;
+
+}
+
+.menu-relatorios{
+display: flex;
+flex-direction: row;
+margin: 1rem 0rem 0rem 9rem;
+
+
+}
+
+.botao-gerar-relatorio{
+  width: 200px;
+  height: 40px;
+  margin: 1rem 0rem 0rem 9rem;
+  border-radius: 10px;
+  background-color: #6b0000;
+  color: white;
+}

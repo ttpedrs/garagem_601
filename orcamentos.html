@@ -153,8 +153,8 @@
 
     </div>
     <div class="tabela-orcamento">
-        <button class="botao-adicionar-lin">Inserir Linha</button>
-        <table>
+        <button class="botao-adicionar-lin"><a class="link-botao" href="#" src="Botão">Inserir Linha</a></button>
+        <table class="tabela-itens">
             <colgroup>
                 <col class="col-qtde">
                 </col>
@@ -172,26 +172,40 @@
                 <th>R$</th>
             </tr>
             <tr>
-                <th><input type="text"></th>
-                <th><input type="text"></th>
-                <th><input type="text"></th>
-                <th><input type="text"></th>
+                <td><input type="text"></td>
+                <td><select class="dropdown-table" placeholder="Cliente">
+                        <option disabled selected value="">UM</option>
+                        <option value="Opcao1">L</option>
+                        <option value="Opcao2">UN</option>
+                        <option value="Opcao3">KIT</option>
+                    </select></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                    
             </tr>
 
 
         </table>
-
+        <div class="historico-orcamentos">
+            <p class="titulo-historico">Histórico:</p>
+            <hr class="separador">
+            
+            <div class="quadro-historico">
+                <b>Resumo:</b><p>......</p>
+                <b>Data:</b><p>......</p>
+                <b>R$:</b><p>......</p>
+                
+            
+            </div>
+    
+        </div>
 
 
     </div>
+    
     </div>
 
-    <div class="historico-orcamentos">
-
-
-
-
-    </div>
+   
     <!-- Rodapé-->
     <footer>
 
